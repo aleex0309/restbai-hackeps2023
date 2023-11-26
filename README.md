@@ -24,7 +24,7 @@ ReAI Estate 2.0 is a revolutionary project developed for Restb.ai, designed to a
    - Seamless navigation with an interactive map.
    - Pinpoint property locations for a detailed view.
 
-## Why NextGen HomeHub?
+## Why ReAI Estate 2.0 ?
 
 - **Innovative Technology:** Built on Next.js for a responsive and seamless user experience.
 - **Data-Driven Insights:** Make informed decisions with advanced data analytics.
