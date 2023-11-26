@@ -90,7 +90,9 @@ export default function Results({
   return (
     <div className='flex align-middle justify-center mt-20 ml-20 mr-20 mb-20'>
       <div className='card w-2/3 bg-base-100 shadow-xl'>
-        <div className='card-title text-4xl'>Your Automatic Generated AD</div>
+        <div className='card-title text-4xl text-orange-600 flex items-center justify-center align-middle'>
+          Your Automatic Generated AD
+        </div>
         <div className='card-body'>
           <Carousel images={params.userInput.images} />
           {loading && (
@@ -113,8 +115,11 @@ export default function Results({
                   />
                 </div>
               </div>
+              <p className='text-3xl mt-6 mb-3 text-orange-400'>
+                {addressString}
+              </p>
               <p className='text-3xl mt-6 mb-3'>Description</p>
-              <p className='text-xl text-left'>
+              <p className='text-xl text-left mb-6'>
                 {description ? description : 'Error generating description'}
               </p>
               <Chart address={addressString} />
